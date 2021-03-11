@@ -6,21 +6,24 @@
   </head>
   <body>
     <h1>Contact Details</h1>
-    <p>My Fictional Address</p>
-    <p>5101234567</p>
-    <p>wiseleyfong@gmail.com</p>
+    <ul>
+      <li>My Fictional Address</li>
+      <li>(123) 456-7890</li>
+      <li>wiseleyfong@email.com</li>
+    </ul>
 
-    <form class="" action="mailto:wiseleyfong@gmail.com" method="post" enctype="text/plain">
+<br>
+    <form action="mailto:wiseleyfong@email.com" method="post" enctype="text/plain">
       <label>Your Name:</label>
-        <input type="text">
+        <input type="name" name="Contact Name" value="">
         <br>
       <label>Your Email:</label>
-        <input type="email" name="yourName" value="">
+        <input type="email" name="Email" value="">
         <br>
       <label>Do you want to sign up for emails?</label>
-        <input type="checkbox" name="yourEmail" value=""><br>
+        <input type="checkbox" name="Notification" value="Yes"><br><br>
         <label>Your Message:</label><br>
-        <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+        <textarea name="Message" rows="10" cols="35"></textarea><br>
         <input type="submit" name="">
     </form>
   </body>
